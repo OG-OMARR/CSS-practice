@@ -1,0 +1,237 @@
+.Hello-world {
+    font-size: 26px;
+    color: blue;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+}
+.welcome {
+    font-size: 22px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.our-service {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.staff {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+   }
+   li{
+    font-size: 20px;
+    font-family: sans-serif;
+   }
+p  {
+    font-size: 22px;
+    font-family: sans-serif;
+    line-height: 1.2;
+   }
+   body{
+    margin: 0%;
+}
+.container{
+    background-color: white
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    margin: 40px;
+}
+.flex-item{
+    justify-content: space-between;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+.item-1{
+    background-color: yellow;
+}
+.item-2{
+    background-color: blue;
+}
+.item-3{
+    background-color: brown;
+}
+.item-4{
+    background-color: blanchedalmond;
+    height: 100px;
+}
+.item-5{
+    background-color: yellowgreen;
+}
+.item-6{
+    background-color: black;
+}
+,.item-7{
+    background-color: violet;
+}
+.item-8{
+    background-color: blueviolet;
+}
+.css-grid{
+    display: grid;
+    grid-template-columns: 300px 200px;
+    text-align: center;
+    text-transform: uppercase;
+    gap: 20px;
+    column-gap: 60px;
+    row-gap: 30px;
+
+}
+.Grid-item-1{
+    background-color: blueviolet;
+    height: 100px;
+}
+.Grid-item-2{
+    background-color: yellow;
+    height: 100px;
+}
+.Grid-item-3{
+    background-color: blue;
+    height: 100px;
+}
+.Grid-item-4{
+    background-color: pink;
+    height: 100px;
+}
+.Grid-item-5{
+background-color: green;
+height: 100px;
+}
+.Grid-item-6{
+    background-color: aqua;
+height: 100px;
+}
+.Grid-item-7{
+background-color: blueviolet;
+height: 100px;
+}
+.Grid-item-8{
+    background-color: blue;
+    height: 100px;
+
+}
+
+.carousel{
+    background-color: green;
+    width: 800px;
+    margin: 100px auto;
+    border-radius: 8px;
+    color: #fff;
+    padding: 32px;
+    padding-left: 86px;
+    padding-right: 48px;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    gap: 86px;
+}
+#Logo-1{
+    height: 200px;
+    border-radius: 8px; 
+    transform: scale(1.5);
+    box-shadow: 0 12px 24px rgba(red 0, green 0, blue 0, alpha 1.25);
+}
+.testimonial-text{
+font-size: 18px;
+font-weight: 500;
+line-height: 1.5;
+margin-bottom: 32px;
+color: #e6fcf5;
+}
+
+.testimonial-author{
+font-size: 12px;
+margin-bottom: 4px;
+color: #e6fcf5;
+}
+
+.testimonial-job{
+font-size: 12px;
+color: #e6fcf5;
+}
+/* CONTROLS*/
+.btn{
+    background-color: #fff;
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    box-shadow: 0 12px 24px rgba(red, green, blue, alpha 1.25);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} 
+.btn--left{
+    /* In Relation to PARENT ELEMENT*/
+    left: 0;
+    top: 50%;
+     /* In Relation to ELEMENT ITSELF*/
+    transform: translate(-50%, -50%);
+}
+.btn--right{
+    right: 0;
+    transform: translate(-50%, -50%);
+}
+.btn-icon{
+    height: 24px;
+    width: 24px;
+    stroke: #007f5b;
+}
+.dots{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 32px);
+
+    display: flex;
+    gap: 12px;
+
+}
+.dot{
+    width: 12px;
+    width: 12px;
+    background-color: #fff;
+    border: 2px solid #007f5b;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dot--fill{
+    background-color: #007f5b;
+}
+
+.hero{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #007f5b;
+}
+.hero-img{
+    width: 100%;
+}
+.heading-primary{
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 1.85;
+    color: #333;
+    letter-spacing: -0.5px;
+    margin-bottom: 32px;
+}
+.hero-description{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 48px;
+}
